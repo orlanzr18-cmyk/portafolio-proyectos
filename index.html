@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Orlanxavier Iglesias</title>
+    <link rel="stylesheet" href="css/main_styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Orlanxavier Iglesias</h1>
+        <nav>
+            <ul>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="perfil">
+            <img src="img/FOTO%20de%20Perfil.jpeg" alt="Foto de perfil de Orlanxavier Iglesias" />
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de Ingeniería en Ciencias de la Computación en la UNICAH,
+                apasionado por el desarrollo web. Me gusta construir páginas con HTML,
+                CSS y JavaScript puro, entendiendo cómo funciona cada pieza.
+            </p>
+            <p>
+                He participado en proyectos en equipo, trabajando con Git y GitHub
+                para colaborar y mantener el código organizado.
+            </p>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <article>
+                <h3>Proyecto de Desarrollo Web</h3>
+                <p>Proyecto de desarrollo web realizado en equipo con HTML, CSS y JavaScript.</p>
+                <a target="_blank" href="https://github.com/annygiron/Proyecto_desarrollo_web">Ver repositorio</a>
+            </article>
+            <article>
+                <h3>TRAMADE</h3>
+                <p>Proyecto realizado en equipo. Consulta el repositorio para ver el detalle.</p>
+                <a target="_blank" href="https://github.com/Murnung/TRAMADE">Ver repositorio</a>
+            </article>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>
+                Orlanxavier Iglesias<br/>
+                <a href="mailto:orli_castellanos02@unicah.edu">orli_castellanos02@unicah.edu</a><br/>
+                8790-8537
+            </p>
+            <p><a target="_blank" href="https://github.com/orlanzr18-cmyk">GitHub</a></p>
+
+            <h3>Envíame un mensaje</h3>
+            <form id="formContacto">
+                <label for="txtNombre">Nombre</label>
+                <input type="text" id="txtNombre" placeholder="Nombre Completo" />
+                <span id="errNombre"></span>
+
+                <label for="txtCorreo">Correo</label>
+                <input type="text" id="txtCorreo" placeholder="tucorre@electro.nico" />
+                <span id="errCorreo"></span>
+
+                <label for="txtMensaje">Mensaje</label>
+                <textarea id="txtMensaje" placeholder="Escriba su mensaje"></textarea>
+                <span id="errMensaje"></span>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados 2026 &copy; Orlanxavier Iglesias</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
