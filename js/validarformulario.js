@@ -31,9 +31,8 @@ function enviar(evento) {
     }
 
     if (valido == true) {
-        var asunto = encodeURIComponent("Contacto desde mi portafolio");
-        var cuerpo = encodeURIComponent(mensaje + " - De: " + nombre + " (" + correo + ")");
-        window.location.href = "mailto:" + CORREO + "?subject=" + asunto + "&body=" + cuerpo;
+        alert("¡Mensaje enviado con éxito!");
+        document.getElementById("formContacto").reset();
     }
 }
 
